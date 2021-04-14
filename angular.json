@@ -27,7 +27,7 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
-              "src/favicon.ico",
+              "src/assets/img//soli-logo-icon.png",
               "src/assets"
             ],
             "styles": [

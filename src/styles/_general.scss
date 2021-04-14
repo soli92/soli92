@@ -1,8 +1,14 @@
 body {
-    color: black;
-    margin-left: 15%;
-    margin-right: 15%;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: black;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #24292e;
 }
 
 :host {
@@ -64,6 +70,11 @@ body {
     max-width: 960px;
     flex-direction: column;
     align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
   }
 
   svg.material-icons {
